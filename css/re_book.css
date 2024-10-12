@@ -19,7 +19,6 @@
   .kdjk {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
   }
   .bookimg {
@@ -91,13 +90,7 @@
 }
 
 /*! Medium devices (tablets, 768px and up) */
-@media (max-width: 800px) {
-  .nav-books {
-    display: none;
-    z-index: 999;
-    position: fixed;
-    overflow: scroll;
-  }
+@media (max-width: 768px) {
   .nav-books h2 {
     z-index: 999;
   }
@@ -113,15 +106,7 @@
   .kkdkd li a {
     padding-inline: 8px;
   }
-  .nav-books.active {
-    display: block;
-    position: fixed;
-    z-index: 1;
-    background-color: antiquewhite;
-    width: 40%;
-    transition: 0.5s;
-    transition: ease-out;
-  }
+
   .scroll h2 {
     font-size: 1rem;
   }
@@ -146,10 +131,7 @@
 }
 
 /*! Medium devices (tablets, 768px and up) */
-@media (min-width: 800px) {
-  .my-search-nav button {
-    display: none;
-  }
+@media (min-width: 768px) {
   .kkdkd li a {
     padding-inline: 8px;
   }
@@ -164,8 +146,43 @@
   }
 }
 
-/*! Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (max-width: 900px) {
+  .nav-books {
+    display: none;
+    z-index: 999;
+    position: fixed;
+    overflow: scroll;
+  }
+  .nav-books h2 {
+    z-index: 999;
+  }
+  .all-books {
+    width: 100%;
+  }
+  .my-search-nav {
+    z-index: 1;
+  }
+  .my-search-nav h2 {
+    display: none;
+  }
+  .nav-books.active {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    background-color: #eee;
+    width: 30%;
+    transition: 0.5s;
+    transition: ease-out;
+  }
+  .my-search-nav button {
+    display: block;
+  }
+}
+
+@media (min-width: 900px) {
+  .my-search-nav button {
+    display: none;
+  }
 }
 
 /*! X-large deices (large desktop, 1200nd up) */

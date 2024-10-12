@@ -2,8 +2,6 @@
   width: 100%;
   height: 850px;
   background-color: #eee;
-  /* margin-top: 65px; */
-  /* padding-top: 65px; */
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
@@ -11,11 +9,11 @@
 .nav-books {
   width: 18%;
   height: 100%;
-  /* background-color: pink; */
   margin: 0;
   padding: 0;
   overflow: scroll;
   padding-top: 70px;
+  background-color: #eee;
 }
 .nav-books h2 {
   font-size: 18px;
