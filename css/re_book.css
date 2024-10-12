@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap");
+* {
+  font-family: "Hanuman", serif;
+}
+
+@media (max-width: 456px) {
+  .kdjk .booktxt p {
+    font-size: 12px;
+  }
+  .ratingbook div i.fa-star {
+    font-size: 12px;
+  }
+  .ratingbook div i.fa-star-half-stroke {
+    font-size: 12px;
+  }
+  .ratingbook span {
+    font-size: 12px;
+  }
+  .kdjk {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  .bookimg {
+    width: 100%;
+    height: 60%;
+    margin-bottom: -50px;
+  }
+  .booktxt {
+    width: 100%;
+    height: 36%;
+  }
+  .modal-dialog {
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+  }
+  div.picbook img {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    object-fit: contain;
+  }
+  .modal-header h1.kok {
+    font-size: 8px;
+  }
+}
+/*! Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .kdjk .booktxt p {
+    font-size: 14px;
+  }
+  .modal-header h1.modal-title {
+    font-size: 10px;
+  }
+  .kdjk .booktxt p {
+    font-size: 12px;
+  }
+  .ratingbook div i.fa-star {
+    font-size: 12px;
+  }
+  .ratingbook div i.fa-star-half-stroke {
+    font-size: 12px;
+  }
+  .ratingbook span {
+    font-size: 12px;
+  }
+  .kjk {
+    top: 50%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .modal-dialog {
+    width: 75%;
+  }
+  .kaa button a {
+    font-size: 12px;
+  }
+  .kaa button {
+    padding: 4px 8px;
+  }
+  .modal-header h1.kok {
+    font-size: 8px;
+  }
+}
+
+/*! Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .nav-books {
+    display: none;
+    z-index: 999;
+    position: fixed;
+    overflow: scroll;
+  }
+  .nav-books h2 {
+    z-index: 999;
+  }
+  .all-books {
+    width: 100%;
+  }
+  .my-search-nav {
+    z-index: 1;
+  }
+  .my-search-nav h2 {
+    display: none;
+  }
+  .kkdkd li a {
+    padding-inline: 8px;
+  }
+  .nav-books.active {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    background-color: antiquewhite;
+    width: 40%;
+    transition: 0.5s;
+    transition: ease-out;
+  }
+  .scroll h2 {
+    font-size: 1rem;
+  }
+  .nav-books ul li a {
+    font-size: 0.9rem;
+  }
+  .kdjk .booktxt p {
+    font-size: 14px;
+  }
+  .ratingbook div i.fa-star {
+    font-size: 14px;
+  }
+  .ratingbook div i.fa-star-half-stroke {
+    font-size: 14px;
+  }
+  .ratingbook span {
+    font-size: 14px;
+  }
+  .modal-header h1.kok {
+    font-size: 16px;
+  }
+}
+
+/*! Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .my-search-nav button {
+    display: none;
+  }
+  .kkdkd li a {
+    padding-inline: 8px;
+  }
+  .nav-books ul li a {
+    font-size: 1rem;
+  }
+  .my-search-nav {
+    width: 100%;
+  }
+  .modal-header h1.kok {
+    font-size: 18px;
+  }
+}
+
+/*! Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/*! X-large deices (large desktop, 1200nd up) */
+@media (min-width: 1200) {
+}

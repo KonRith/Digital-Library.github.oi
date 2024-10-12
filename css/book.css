@@ -1,0 +1,254 @@
+.my-item {
+  width: 100%;
+  height: 850px;
+  background-color: #eee;
+  /* margin-top: 65px; */
+  /* padding-top: 65px; */
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.nav-books {
+  width: 18%;
+  height: 100%;
+  /* background-color: pink; */
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  padding-top: 70px;
+}
+.nav-books h2 {
+  font-size: 18px;
+  color: rgb(8, 0, 255);
+  font-weight: 550;
+  text-align: center;
+  margin-top: 20px;
+}
+.nav-books ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: normal;
+  gap: 8px;
+  list-style: none;
+  padding: 15px;
+}
+.nav-books ul li a {
+  text-decoration: none;
+  color: blue;
+  font-size: 1rem;
+  padding-block: 2px;
+  padding-inline: 16px;
+  display: block;
+  transition: scale 0.2s ease-out, background-color 0.2s ease-out;
+}
+.nav-books ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-books ul li a:hover {
+  color: rgb(0, 34, 255);
+  transition: 0.2s;
+  font-weight: 550;
+  background-color: rgba(115, 110, 119, 0.128);
+}
+.all-books {
+  width: 82%;
+  height: 100%;
+  padding: 0px 25px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  padding-top: 66px;
+}
+.scroll .kol {
+  margin-top: 50px;
+}
+.my-search-nav {
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+  padding: 10px 0;
+  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 500;
+}
+.my-search-nav i {
+  cursor: pointer;
+}
+.my-search-nav button {
+  background-color: rgba(0, 0, 255, 0);
+  border: none;
+}
+.my-search-nav h2 {
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  left: 2%;
+  margin-top: 20px;
+}
+.search {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 90%;
+  border: none;
+  border-radius: 12px;
+  padding: 4px 8px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.436);
+  outline: none;
+}
+.search i {
+  width: 10%;
+  text-align: center;
+}
+.scroll {
+  width: 100%;
+  height: auto;
+  background-color: rgba(213, 203, 203, 0.266);
+  padding: 12px;
+  box-sizing: border-box;
+}
+.scroll .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  row-gap: 24px;
+  margin-top: 18px;
+}
+.kk {
+  height: 365px;
+  width: 230px;
+  background-color: rgba(81, 94, 145, 0.399);
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 255, 0.54);
+}
+.kk .pic_book {
+  width: 100%;
+  height: 78%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pic_book img {
+  width: 93%;
+  height: 96%;
+  object-fit: cover;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.kk .txt_book {
+  width: 100%;
+  height: 22%;
+  position: relative;
+  padding: 4px 8px;
+}
+.txt_book .my_more {
+  position: absolute;
+  bottom: 1px;
+  left: 2px;
+  padding: 4px 12px;
+  font-size: 12px;
+}
+/* my style */
+
+.modal-dialog {
+  width: 75%;
+  height: auto;
+}
+.fjs {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
+.ieu {
+  color: white;
+  text-decoration: none;
+}
+.kaa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hskd {
+  height: 200px;
+}
+.card-body {
+  line-height: 1.3;
+}
+.kdjk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  background-color: rgb(255, 255, 255);
+}
+.bookimg {
+  width: 48%;
+  height: 100%;
+}
+.booktxt {
+  width: 48%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  overflow: auto;
+}
+.booktxt p {
+  text-indent: 20px;
+  text-align: start;
+}
+.picbook {
+  width: 100%;
+  height: 80%;
+}
+.picbook img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 2px 2px 2px black;
+}
+.ratingbook {
+  width: 100%;
+  height: 20%;
+  color: gold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+.ratingbook span {
+  font-size: 19px;
+  font-weight: 700;
+  color: red;
+}
+.kaa a:hover {
+  color: white;
+}
+
+.scroll h2 {
+  font-size: 1.3rem;
+  color: blue;
+  overflow: hidden;
+}
+.nav-books h2 {
+  z-index: 999;
+}
+.bookimg .pic_book img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
