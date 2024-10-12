@@ -91,7 +91,7 @@
 }
 
 /*! Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .nav-books {
     display: none;
     z-index: 999;
@@ -146,7 +146,7 @@
 }
 
 /*! Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .my-search-nav button {
     display: none;
   }
