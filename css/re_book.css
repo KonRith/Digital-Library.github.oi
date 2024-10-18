@@ -170,7 +170,7 @@
     position: fixed;
     z-index: 1;
     background-color: #eee;
-    width: 30%;
+    width: 45%;
     transition: 0.5s;
     transition: ease-out;
   }
